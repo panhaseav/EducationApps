@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".PythonAPI">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Projects"
+                        android:textColor="#FFFFFF"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Python with API"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="30dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <TextView
+                    android:text="Description of the project"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView18"/>
+            <TextView
+                    android:text="By Tolga4"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView19"/>
+            <TextView
+                    android:text=" I am looking for some help with API in Python. It is for an app which gets the nearby events happening and displays them. I am unsure which API to use and hgow to integrate it."
+                    android:layout_width="match_parent"
+                    android:layout_margin="40dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+
+                    android:id="@+id/textView20"/>
+            <TextView
+                    android:text="Who is this for?"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView21"/>
+            <TextView
+                    android:text="This activity is most suited to people who already feel confident with some API and Python skills. If not, you may first want to look through the courses in th learning page."
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView22"/>
+            <TextView
+                    android:text="Outcomes of the project"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView23"/>
+            <TextView
+                    android:text="Events page that gets the location of the person and displays nearby events happening right now. It displays the location, the description of the event, the price and how to get tickets for it. "
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView24"/>
+            <TextView
+                    android:text="If you are interested click join for contact details"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView25"/>
+
+            <Button
+                    android:text="Join"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button3"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

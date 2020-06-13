@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.loginregister">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".FaqActivity"></activity>
+        <activity
+            android:name=".ChatActivity"
+            android:windowSoftInputMode="adjustResize"></activity>
+        <activity
+            android:name=".PaymentUsingCard"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".PaypalActivity" />
+        <activity android:name=".PaymentPackagesActivity" />
+        <activity android:name=".UserProfileActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PythonPage" />
+        <activity android:name=".PythonQuiz" />
+        <activity android:name=".HTMLPage" />
+        <activity android:name=".HTMLQuiz" />
+        <activity android:name=".PHPPage" />
+        <activity android:name=".PHPQuiz" />
+        <activity android:name=".JavaPage" />
+        <activity android:name=".JavaQuiz" />
+        <activity android:name=".Learning_Dashboard" />
+        <activity android:name=".dashboard" />
+        <activity android:name=".signup" />
+        <activity android:name=".login" />
+        <activity android:name=".Work" />
+        <activity android:name=".Project" />
+        <activity android:name=".Webpage_project" />
+        <activity android:name=".company_details" />
+        <activity android:name=".HomeProject" />
+        <activity android:name=".PythonAPI" />
+        <activity android:name=".UIdesign" />
+        <activity android:name=".B_Company" />
+        <activity android:name=".C_company" />
+        <activity android:name=".D_company" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

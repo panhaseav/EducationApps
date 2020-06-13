@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".B_Company">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="B Company"
+                        android:textColor="#FFFFFF"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="ETech"
+                        android:layout_marginLeft="67dp"
+                        android:textColor="#000000"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="30dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PHP Developer"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="30dp"/>
+            <TextView
+                    android:text="We are looking for a PHP Web developer to join us as we move into the next phase of our e-commerce development. With a focus on personal development, our 30-strong software development team is a perfect place for a candidate with 1-2 years' experience in web development using PHP to solidify their skills and to learn new technologies (Magento).
+"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="40dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+
+                    android:id="@+id/textView2"/>
+
+
+            <TextView
+                    android:text="Task and requirements:"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView3"/>
+            <TextView
+                    android:text="The ideal candidate will have some experience in PHP and frontend web development skills including html, JavaScript and CSS (SASS). Some experience of databases, especially MySQL, is also required.
+Reporting to the Web Development Team Lead, you will be joining a new team created to take on the challenge of migrating the business from our successful, custom-built websites to Magento and supporting multiple Wordpress sites. This team will be key to the ongoing success of our digital offerings across the main business divisions. As an early member of our Magento development team, there will be considerable opportunities for your role to develop over the next few years. Training will be provided where appropriate."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:id="@+id/textView4"/>
+
+            <TextView
+                    android:text="Required courses to apply:"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView7"/>
+            <TextView
+                    android:text="PHP Lv1,2,3,4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView8"/>
+            <TextView
+                    android:text="HTML and CSS Lv1,2,3,4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView0"/>
+
+            <TextView
+                    android:text="Required number of projects done to apply: "
+                    android:layout_width="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView10"/>
+            <TextView
+                    android:text="PHP related:1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView11"/>
+            <TextView
+                    android:text="HTML and CSS related:1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView02"/>
+            <TextView
+                    android:text="What we offer: "
+                    android:layout_width="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView12"/>
+
+            <TextView
+                    android:text="25 days annual holiday, rising to 30 days with service, Your birthday off as a FREE extra day’s holiday,
+Annual company trading bonus,
+Generous pension arrangements *,
+Private healthcare *,
+Enhanced company sick pay *,
+Additional maternity / paternity benefits *,
+Subsidised gym membership,
+Annual summer and Christmas parties"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView13"/>
+
+            <TextView
+                    android:text="Become a part of the ETech Service Partner community by registering online today!"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView14"/>
+
+            <TextView
+                    android:text="Salary: £25,000 – £30,000 pa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView15"/>
+
+            <Button
+                    android:text="Apply"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+
+                    android:layout_height="wrap_content" android:id="@+id/button"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

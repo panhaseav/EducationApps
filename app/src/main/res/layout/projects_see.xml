@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".Webpage_project">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Projects"
+                        android:textColor="#FFFFFF"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Webpage"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="30dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <TextView
+                    android:text="Description of the project"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView18"/>
+            <TextView
+                    android:text="By Maria_Nedelcheva"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView19"/>
+            <TextView
+                    android:text="A new designer cake shop in Sydney that knows very little about computers, but wants to take their business online. The main focus of the business is wedding cakes, however they are looking to expand the business to possibly cater for other types of cakes such as birthdays and other Celebrations. "
+                    android:layout_width="match_parent"
+                    android:layout_margin="40dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+
+                    android:id="@+id/textView20"/>
+            <TextView
+                    android:text="Who is this for?"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView21"/>
+            <TextView
+                    android:text="This activity is most suited to people who already feel confident with some basic HTML and CSS skills. If not, you may first want to look through the courses in th learning page."
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView22"/>
+            <TextView
+                    android:text="Outcomes of the project"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView23"/>
+            <TextView
+                    android:text="On the design side, we should:
+
+Create a new prototype on paper or in Photoshop, clearly showing the look-n-feel of the site. Make sure you get lots of feedback from others about this!
+All images should be optimized for the web.
+On the technical side, your project website should:
+
+be around 4-6 pages in size
+be valid HTML (or XHTML) - you choose your doctype.
+use CSS for your presentation (background images, all aspects of fonts, colors and, where possible, layout)
+demonstrate a 2-column layout on at least one page (or something that requires you to practice page layout with CSS)
+include a site navigation that is just a simple list with some great style (see Listomatic for some great examples).
+include a simple contact form styled appropriately for the site (even though the form may not yet do anything)
+if possible, a table used to display tabular data, such as a product list or fees and charges table.
+still function correctly if the stylesheet is disabled (your first taste of accessibility)"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView24"/>
+            <TextView
+                    android:text="If you are interested click join for contact details"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView25"/>
+            <Button
+                    android:text="Join"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button3"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

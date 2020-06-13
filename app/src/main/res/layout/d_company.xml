@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".D_company">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Work"
+                        android:textColor="#FFFFFF"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="250dp"
+                    android:layout_height="60dp"
+                    android:layout_gravity="center">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Capgemini"
+                        android:layout_marginLeft="60dp"
+                        android:textColor="#000000"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="30dp"/>
+
+
+            </LinearLayout>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Android Developer"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="30dp"/>
+            <TextView
+                    android:text="We are looking to recruit an Android Developer to join Capgemini Financial Services Digital Practice. This is a permanent, fulltime position and this represents a unique opportunity for someone to enhance their Digital Consulting career"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="40dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+
+                    android:id="@+id/textView2"/>
+
+
+            <TextView
+                    android:text="The job:"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView3"/>
+            <TextView
+                    android:text="The range of activities that our Android Developer get involved with is extensive and includes:
+Translate designs and wireframes into high quality code,
+Design build and maintain high performance reusable and reliable Java code,
+Ensure the best possible performance quality and responsiveness of the application Identify and correct bottlenecks and fix bugs,
+Follow security guidelines with application development,
+Produce fully functional mobile applications writing clean code,
+Support the entire application lifecycle (concept, design, test, release and support),
+Design and build advanced app features for the Android platform,
+Independently craft project solutions by applying solid Object-Oriented-Design principles.,
+Working in a team of talented Android engineers developing amazing native apps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+
+                    android:id="@+id/textView4"/>
+            <TextView
+                    android:text="What we’ll offer you"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView04"/>
+            <TextView
+                    android:text="Professional development. Accelerated career progression. An environment that encourages entrepreneurial spirit. It’s all on offer at Capgemini. And although collaboration is at the core of the way we work, we also recognise individual needs with a flexible benefits package you can tailor to suit you."
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView08"/>
+
+
+            <TextView
+                    android:text="Required courses to apply:"
+                    android:layout_width="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView7"/>
+            <TextView
+                    android:text="Android: Lv1,2,3,4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView8"/>
+            <TextView
+                    android:text="Android Advanced Lv1,2,3,4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView0"/>
+
+            <TextView
+                    android:text="Required number of projects done to apply: "
+                    android:layout_width="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textSize="18dp"
+                    android:textColor="#000000"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView10"/>
+            <TextView
+                    android:text="Android related:6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView11"/>
+
+
+            <TextView
+                    android:text="If you can show us your work on GitHub, please provide a link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView00"/>
+
+
+
+
+            <TextView
+                    android:text="Salary: £18.00 /hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/textView15"/>
+
+            <Button
+                    android:text="Apply"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+
+                    android:layout_height="wrap_content" android:id="@+id/button"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

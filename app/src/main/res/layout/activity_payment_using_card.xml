@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitecolor"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pay Using Card"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:padding="10dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/fullName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Full name"
+                        android:inputType="textPersonName"
+                        app:met_floatingLabel="highlight"
+                        app:met_textColorHint="@color/app_text_ui_color_light_grey" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/creditCardNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:digits="0123456789"
+                        android:hint="Card number"
+                        android:inputType="phone"
+                        android:maxLength="16"
+                        app:met_floatingLabel="highlight"
+                        app:met_textColorHint="@color/app_text_ui_color_light_grey" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/expiryMonth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:digits="0123456789"
+                        android:hint="Expiry Month"
+                        android:inputType="phone"
+                        android:maxLength="2"
+                        app:met_floatingLabel="highlight"
+                        app:met_hideUnderline="false"
+                        app:met_textColorHint="@color/app_text_ui_color_light_grey" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/expiryYear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:digits="0123456789"
+                        android:hint="Expiry Year"
+                        android:inputType="phone"
+                        android:maxLength="4"
+                        app:met_floatingLabel="highlight"
+                        app:met_hideUnderline="false"
+                        app:met_textColorHint="@color/app_text_ui_color_light_grey" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/ccv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:digits="0123456789"
+                        android:hint="CCV"
+                        android:inputType="phone"
+                        android:maxLength="3"
+                        app:met_floatingLabel="highlight"
+                        app:met_hideUnderline="false"
+                        app:met_textColorHint="@color/app_text_ui_color_light_grey" />
+
+                    <com.rengwuxian.materialedittext.MaterialEditText
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:hint="Address"
+                        android:inputType="textMultiLine"
+                        app:met_floatingLabel="highlight"
+                        app:met_textColorHint="@color/app_text_ui_color_light_grey" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#293688"
+        android:gravity="center"
+        android:onClick="payNowClicked"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay now"
+            android:textColor="@color/whitecolor"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

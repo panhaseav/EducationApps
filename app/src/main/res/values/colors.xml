@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="backgroundsearch">#235952</color>
+    <color name="backgroundcolor">#333399</color>
+    <color name="whitecolor">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#3571D1</color>
+    <color name="light_blue">#E5F3FE</color>
+    <color name="pink">#FF888C</color>
+    <color name="app_text_ui_color_grey">#505050</color>
+    <color name="app_text_ui_color_light_grey">#CD505050</color>
+    <color name="light_grey">#A6F3F3F3</color>
+    <color name="medium_grey">#48DDDDDD</color>
+    <color name="light_pink">#19FF888C</color>
+    <color name="loading_dialog_bg">#505050</color>
+    <color name="colorTextInfo">#9b9b9b</color>
+    <color name="colorTextBlack">#333333</color>
+    <color name="colorTextHint">#e1e1e1</color>
+</resources>

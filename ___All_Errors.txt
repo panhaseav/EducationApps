@@ -1,0 +1,5 @@
+CorrelationId: a1c43403-9524-48a6-9d55-4945424f5644
+UTC DateTime: 23/04/2020 21:27:34
+
+The following file/folder has not been downloaded
+1. loginregister/app/build/intermediates/res/merged/debug

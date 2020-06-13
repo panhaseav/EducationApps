@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".HomeProject">
+
+    <com.google.android.material.appbar.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Projects"
+                        android:textColor="#FFFFFF"
+                        style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"/>
+            </LinearLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Home web page project"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textSize="30dp">
+
+                </TextView>
+
+            </LinearLayout>
+            <TextView
+                    android:text="Description of the project"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView18"/>
+            <TextView
+                    android:text="By Martin"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView19"/>
+            <TextView
+                    android:text="I would like to invite a friendly person who is familiar with HTML and CSS to help me build the home webpage of a small website of mine. The website is about The Green Foundation which was founded in August 2005 and is a non-profit organisation that aims to
+assist and uplift rural communities with the support of environmental projects. We have raised
+more than R 4 million to date and have won the Hope Award in 2007 and 2010. To date, we have
+assisted 45 rural communities in South Africa, Botswana and Zambia and planted more than
+30,000 trees. For a full outline of our projects per area, please see our project booklet, attached.
+Our staff currently includes two full time project coordinators, a marketing coordinator and five
+administrative staff members. We also have four part time volunteers during various stages of
+the year.
+Our main message is that poverty and environmental degradation are intrinsically linked. By
+educating communities to respect the environment, opportunities for income generation are
+created.  "
+                    android:layout_width="match_parent"
+                    android:layout_margin="40dp"
+                    android:textAlignment="center"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+
+                    android:id="@+id/textView20"/>
+            <TextView
+                    android:text="Who is this for?"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView21"/>
+            <TextView
+                    android:text="This activity is most suited to people who already feel confident with some basic HTML and CSS skills. If not, you may first want to look through the courses in th learning page."
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content" android:id="@+id/textView22"/>
+            <TextView
+                    android:text="Outcomes of the project"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView23"/>
+            <TextView
+                    android:text="A good looking home page that includes a menu with 7 components:Donate online,
+Subscribe to our newsletter
+Subscribe to our blog RSS feed
+Follow us on social media channels like twitter and Facebook
+Purchase our merchandise
+Contribute blog comments
+Download resources on “going green” "
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView24"/>
+            <TextView
+                    android:text="If you are interested click join for contact details"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView25"/>
+
+            <Button
+                    android:text="Join"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button3"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
